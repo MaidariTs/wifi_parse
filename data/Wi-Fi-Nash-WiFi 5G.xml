@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Nash-WiFi 5G</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4E6173682D57694669203547</hex>
+			<name>Nash-WiFi 5G</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000045348D63164E2B4EA48D06D95BF9140900000000020000000000106600000001000020000000C1B0AAED4EDC287907464477B4C3B23B54AFACDD3B024EAF9E59B6F610C74BD5000000000E8000000002000020000000D818EEF92ADFB0381F54D2751B28CF456812E5ADBC2C8524878EC5FAD5E0F18910000000A1FA2073B125E263AFC219F8DF5A052A4000000020CCA64BB49B0714B5A5D41D4A00685A54D2624C8B509AC6E9679623CF9FD9D3594E1B7E1CC3831506A86B66D7CD5EB8CFE52DBE2CAE7347AB95F0E4F0DF6A17</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>1910959523</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

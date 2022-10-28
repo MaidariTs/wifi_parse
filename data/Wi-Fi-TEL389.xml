@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>TEL389</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>54454C333839</hex>
+			<name>TEL389</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000045348D63164E2B4EA48D06D95BF9140900000000020000000000106600000001000020000000FA77A33FBEFA2F518F173B5BB19FA063D41675F94158FBF6E3648457464D53F9000000000E8000000002000020000000FF8442C5B07E4C4FFCEBC1DE088D6CFBCD849CAB68553EB708CDB926D5110C7E100000005F10CD2A83BDBFC5BEB3400BF649941C4000000054BAA2BF730A385AAF8B4ECAC07E5D4889B7E7CE7BD77AD1A4749D6BE76E0DA3C9D56EC50B5758950DD3C0D1BB15E0D697C60930EE80496EAFD7267468B54EB2</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>742147002</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

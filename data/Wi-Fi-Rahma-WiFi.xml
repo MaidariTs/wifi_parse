@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Rahma-WiFi</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>5261686D612D57694669</hex>
+			<name>Rahma-WiFi</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000538A007976787D48920F09FF52DCFA310000000002000000000010660000000100002000000050635625EDF6DA6A01BD29EAC8B6C5B9EF41923BFCAC0FB67D2B695206E41DAE000000000E800000000200002000000077AB556C88DF028064BA9DAC6F0F653A2FDA4E34324BCDC7A4BBCA6706FA914A100000009E2EC7530226A85EC72D1AAA30FEAB7540000000D789D9EA69CC9BD2157CB2FBDA2F22DED51EBE6CAE38C07DEE822BE04F2C1851E092ED485ED59A49BCFFF7F350721DB2A2CC95B9B88813CD85193814789C5BA9</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3106678134</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

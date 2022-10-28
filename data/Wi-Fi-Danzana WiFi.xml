@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Danzana WiFi</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>44616E7A616E612057694669</hex>
+			<name>Danzana WiFi</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000B7CEE6B86E1CAE438A4B5FA4BC2D1AF3000000000200000000001066000000010000200000005652E7C3CB1607D4B423FCCE2B315162F2A385AC9E6EEE04B7DEF15CE69057D2000000000E800000000200002000000092E7CC49FA54D2CA5612C6FFDB375ED43D3DAB798337068CC26E4AF6693B52B8100000004C81306142B2F45688CD5C3D238BA3E1400000001CC2CD96C135E3CCA168F5596634ACA927C4057CAA05D65D27880B9DF84D02180D7231CFE207C63BABEFF02FF5377B2F6DFC94D38259171475E19593BB22C71B</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>2429778325</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>iPhone (Maidari)</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>6950686F6E6520284D61696461726929</hex>
+			<name>iPhone (Maidari)</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000045348D63164E2B4EA48D06D95BF9140900000000020000000000106600000001000020000000F4D449E000E3EBBAB733DC9015AB7892C19A0A1891E4336AD524641F5C71225C000000000E800000000200002000000099D7C420549B2C3722380D7748E6A5D48766CE3DB8005511F37927260FA89323100000005435DCFED627D93C57DC24832A340217400000001405B61F499D3F7069D6F6EA203EAD8CB21542CDE9A8BC193A300050424F37152B2CB9BFA1D25B707CA32B899F4A8AAE2B7065631A94EE9A7B3A9978C1933CBC</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>2202836885</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

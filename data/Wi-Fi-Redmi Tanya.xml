@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Redmi Tanya</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>5265646D692054616E7961</hex>
+			<name>Redmi Tanya</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000045348D63164E2B4EA48D06D95BF91409000000000200000000001066000000010000200000009DF0DE1D8D2E9122553C5FA54826D76F4E2E8284CC541569F17EE19AFC9E9B1F000000000E8000000002000020000000678C300877757B04BEB30E927C994E9E65015B34FBFA33DA151C7013E8126E3910000000C4DAE520D5AE16D193EE28C67E7E4C8F400000007D8FDC4981B31233D601D4FFF729636B477516287813679D5330E497B7EA16DB30B27D7150ACC64B1293AD73D637B3923A602E8023249313190FF7D1F3562797</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3062905725</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
