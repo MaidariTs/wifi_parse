@@ -15,6 +15,12 @@ USER_ID = os.getenv('USER_ID')
 WIFI_NAME = os.getenv('WIFI_NAME')
 
 
+if os.path.exists('data'):
+    print("Указанный файл существует")
+else:
+    os.mkdir('data')
+
+
 subprocess.call("netsh wlan show profile")
 subprocess.call("netsh wlan export profile folder="
                 f"{PROJECT_DIR}\\data key=clear")
